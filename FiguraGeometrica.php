@@ -25,12 +25,12 @@
 
 		public function GetColor()
 		{
-			return $this-> $_color
+			return $this->$_color
 		}
 
 		public function SetColor($color)
 		{
-			$this-> $_color = $color;
+			$this->$_color = $color;
 		}		
 
 		public function ToString()
