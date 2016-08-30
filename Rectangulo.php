@@ -1,9 +1,3 @@
-<html>
-<head>
-	<title>Rectangulo</title>
-</head>
-<body>
-
 	<?php
 
 	class Rectangulo extends FiguraGeometrica
@@ -35,6 +29,3 @@
 }
 
 	?>
-
-</body>
-</html>

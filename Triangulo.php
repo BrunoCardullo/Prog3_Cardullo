@@ -1,9 +1,3 @@
-<html>
-<head>
-	<title>Triangulo</title>
-</head>
-<body>
-
  <?php
 
  class Triangulo extends FiguraGeometrica
@@ -34,7 +28,3 @@
 }
 
 ?>
-
-
-</body>
-</html>

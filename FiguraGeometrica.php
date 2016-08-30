@@ -1,8 +1,3 @@
-<html>
-<head>
-	<title>Figura Geometrica</title>
-</head>
-<body>
 	<?php
 
 	abstract class FiguraGeometrica
@@ -46,6 +41,3 @@
 	}
 
 	?>
-
-</body>
-</html>
