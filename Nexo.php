@@ -6,7 +6,7 @@ $variableTexto = $_POST['texto'];
 //echo "$_POST[ingreso]";
 //var_dump($_POST);
 
-if ($_POST["ingresar"] == "Ingresar") 
+if (isset($_POST["ingreso"])) 
 {
 	$patente = $_POST ["texto"];
 	//estacionamiento::Guardar($patente);
@@ -15,5 +15,8 @@ if ($_POST["ingresar"] == "Ingresar")
 	echo"ingreso correcto";
 }
 else
-echo"salir correcto";
+{
+	estacionamiento::SacarPatente($_POST["texto"]);
+	echo"salir correcto";
+}
 ?>
